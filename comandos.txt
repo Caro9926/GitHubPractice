@@ -1,0 +1,26 @@
+Esta es una pequeña guía para subir un archivo a github
+1) Si tu interfaz es Windows o Linux debes descargar git bash 
+2) Cuando lo descargues dale 'Next' en todo lo que te solicite
+3) Una vez instalado busca Git Bash en tu ordenador y te debe salir una terminal
+4) A continuación alunos comandos para navegar 
+ls - Muestra la carpeta y los archivos en la terminal
+pwd - Te indica en donde te estás ubicando actualmente
+cd NombredelaCarpeta - Navegar internamente en una carpeta
+cd .. - Salir de la carpeta actual
+5) Para crear una carpeta o un archivo empleas los siguientes:
+mkdir NombredelaCarpeta - Crear una carpeta
+touch NombreArchivo.extension - Crear archivos
+6) Para remover una carpeta o archivo:
+rm NombreArchivooCarpeta -Para eliminar un archivo o carpeta
+ 
+ A continuación, los comandos para subir automáticamente nuestros archivos a GitHub: 
+ 
+ 1) git init - Inicializa una carpeta como un repositorio localmente
+ 2) git add Nombrearchivo or git add . - Con el punto nos permite añadir varios
+ archivos
+ 3) git commit -m "Mensaje para el commit" // Si vuelves a correr, escribe un nuevo mensaje
+ 4) git remote add url-del-github
+ 5) git push -u origin master  git push -u main 
+ 6) git status -Nos dice que está pasando, si está en verde está listo para ser agregado
+
+Recuerda que debes repetir los pasos 2, 3 y 5 si actualizas tus archivos o si eliminas. 
